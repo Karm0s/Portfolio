@@ -1,0 +1,36 @@
+<template>
+	<nav class="flex justify-between items-center bg-blue-100 h-12 px-4">
+		<div class="h-full">
+			<div class="navlink">
+				<nuxtlink to="/">Yanis B</nuxtlink>
+			</div>
+		</div>
+		<div class="flex justify-between h-full">
+			<div class="navlink">
+				<nuxtlink to="/about">projects</nuxtlink>
+			</div>
+			<div class="navlink">
+				<NuxtLink to="/about">services</NuxtLink>
+			</div>
+			<div class="navlink">
+				<NuxtLink to="/about">contact</NuxtLink>
+			</div>
+		</div>
+		<div class="h-full">
+			<div class="navlink">
+				<nuxtlink to="/">
+					<Icon name="uil:github" color="black" class="text-2xl" />
+				</nuxtlink>
+				
+			</div>
+		</div>
+	</nav>
+</template>
+<style lang="postcss">
+.navlink {
+	@apply flex w-28 h-full bg-red-100 text-center align-middle;
+}
+.navlink > * {
+	@apply m-auto;
+}
+</style>
