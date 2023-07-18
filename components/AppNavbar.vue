@@ -2,18 +2,18 @@
 	<nav class="flex justify-between items-center bg-blue-100 h-12 px-4">
 		<div class="h-full">
 			<div class="navlink">
-				<nuxtlink to="/">Yanis B</nuxtlink>
+				<NuxtLink to="/">Yanis B</NuxtLink>
 			</div>
 		</div>
 		<div class="flex justify-between h-full">
 			<div class="navlink">
-				<nuxtlink to="/about">projects</nuxtlink>
+				<NuxtLink to="/projects">projects</NuxtLink>
 			</div>
 			<div class="navlink">
-				<NuxtLink to="/about">services</NuxtLink>
+				<NuxtLink to="/services">services</NuxtLink>
 			</div>
 			<div class="navlink">
-				<NuxtLink to="/about">contact</NuxtLink>
+				<NuxtLink to="/contact">contact</NuxtLink>
 			</div>
 		</div>
 		<div class="h-full">
